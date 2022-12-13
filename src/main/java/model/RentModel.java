@@ -1,3 +1,5 @@
+package model;
+
 public class RentModel {
     String date;
     int period;

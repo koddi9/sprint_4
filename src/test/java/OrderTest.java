@@ -1,4 +1,6 @@
 import io.github.bonigarcia.wdm.WebDriverManager;
+import model.RentModel;
+import model.UserModel;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
@@ -6,6 +8,8 @@ import org.junit.runner.RunWith;
 import org.junit.runners.Parameterized;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.edge.EdgeDriver;
+import page_object.PageMain;
+import page_object.PageOrder;
 
 import static org.junit.Assert.assertTrue;
 
